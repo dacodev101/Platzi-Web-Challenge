@@ -1,0 +1,144 @@
+:root {
+  /* Colores */
+  --violet: hsl(257, 40%, 49%);
+  --Magenta: hsl(300, 69%, 71%):
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  min-width: 375px;
+  max-width: 768px;
+  background-image: url("../images/bg-mobile.svg");
+  background-color: var(--violet);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  margin: 0 30px 10px;
+  min-width: 375px;
+  max-width: 768px;
+  height: 15%;
+}
+
+header svg {
+  width: 150px;
+  height: 120px;
+}
+
+main {
+  width: 100%;
+  height: 60%;
+  margin-top: 58px;
+}
+
+main .main-container {
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-container .container-left {
+  width: 100%;
+  height: 300px;
+  align-items: center;
+  margin: 5px 35px;
+}
+
+.container-left img {
+  width: 90%;
+}
+
+.main-container .container-rigth {
+  width: 98%;
+  height: 40%;
+  margin: 5px 30px;
+  padding: 0 20px;
+  padding-left: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-rigth h1 {
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  padding-left: 5px;
+  color: #fff;
+  text-align: center;
+  line-height: 40px;
+}
+
+.container-rigth p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: rgb(241, 241, 241);
+  text-align: center;
+  line-height: 25px;
+}
+
+.container-rigth button {
+  background-color: #fff;
+  color: var(--violet);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  width: 70%;
+  height: 50px;
+  margin: 30px auto;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 9px 10px 40px -15px rgba(0, 0, 0, 0.9);
+}
+footer{
+  margin-left: 35px;
+}
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  
+}
+
+footer .social-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer .circle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+  text-decoration: none;
+}
+.circle img{
+  height: 30px;
+  width: 30px;
+}
+.footer-information{
+  margin: 10px 0 15px;
+  justify-content: start;
+}
